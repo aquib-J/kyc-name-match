@@ -1,0 +1,153 @@
+id,name_doc_1,name_doc_2,rule,category,notes
+1,K. S. Raghunathan,Kanchipuram Srinivasan Raghunathan,hard_fail,initials_expansion,Tamil style initials (place and father name) vs full expansion
+2,S. Kumar Pandey,Suresh Kumar Pandey,hard_fail,initials_expansion,Single leading initial vs full given name (paired with 84)
+3,K. Rahul Nambiar,Krishnan Rahul Nambiar,hard_fail,initials_expansion,Initial is father name not a given name
+4,R. Venkatesh Prabhu,Rajagopalan Venkatesh Prabhu,hard_fail,initials_expansion,PAN stores initial while Aadhaar stores expansion
+5,M. K. Senthil,Muthuvel Karthikeyan Senthil,hard_fail,initials_expansion,Two initials both expanded on one side
+6,A. R. Farooqui,Abdul Rasheed Farooqui,hard_fail,initials_expansion,Initials expand to a two word given name
+7,P. T. Sreeja,Puthenpurayil Thekkethil Sreeja,hard_fail,initials_expansion,Malayali house name initials with long expansion
+8,N. Sivaraman,Natarajan Sivaraman,hard_fail,initials_expansion,RULES.md example - initial vs full name
+9,Suresh Kumar Yadav,Yadav Suresh Kumar,reorder,ordering,Surname moved to the front
+10,Reddy Venkata Rao,Venkata Rao Reddy,reorder,ordering,Telugu surname first convention
+11,Gollapudi Srinivasa Murthy,Srinivasa Murthy Gollapudi,reorder,ordering,Family name first in state records
+12,Iyer Lakshmi Priya,Lakshmi Priya Iyer,reorder,ordering,Community surname leading
+13,SHARMA ANIL KUMAR,ANIL KUMAR SHARMA,reorder,ordering,All caps passport style with surname first
+14,Das Gupta Ronojoy,Ronojoy Das Gupta,reorder,ordering,Two word surname moved
+15,Mohammed Rafiq Shaikh,Muhammad Rafiq Shaikh,hard_fail,transliteration,Mohammed vs Muhammad spelling
+16,Syed Mohammed Hussain,Saiyad Muhammad Hussain,hard_fail,transliteration,Two words spelled differently
+17,Lakshmi Narayanan Krishnamurthy,Laxmi Narayanan Krishnamurthy,hard_fail,transliteration,ksh vs x
+18,Chandrasekhar Venkata Ramana,Chandrashekar Venkata Ramana,hard_fail,transliteration,s vs sh and vowel length
+19,Gopinath Krishnan Nair,Gopinath Krishnan Nayar,hard_fail,transliteration,ai vs aya in Malayalam surname
+20,Vijay Kumar Varma,Bijay Kumar Verma,hard_fail,transliteration,Bengali v to b shift plus vowel change
+21,Partha Pratim Banerjee,Partha Pratim Bandyopadhyay,hard_fail,transliteration,Anglicised vs original Bengali surname
+22,Saurav Kanti Ganguly,Sourav Kanti Gangopadhyay,hard_fail,transliteration,Anglicised surname plus vowel change
+23,Ayesha Begum Ansari,Aisha Begam Ansari,hard_fail,transliteration,Vowel changes in two words
+24,Shrinivas Raghavan Iyengar,Srinivasa Raghavan Iyengar,hard_fail,transliteration,shr vs sr and trailing schwa
+25,Deepak Kumar Chaurasia,Dipak Kumar Chourasia,hard_fail,transliteration,ee vs i and au vs ou
+26,Rahul Kumar Reddy,Rahul Reddy,middle_name_missing,middle_name_dropped,Middle name missing on second document
+27,Anita Devi Sharma,Anita Sharma,middle_name_missing,middle_name_dropped,Devi middle word dropped
+28,Mohan Lal Gupta,Mohan Gupta,middle_name_missing,middle_name_dropped,Traditional second given name dropped
+29,Sunita Rani Verma,Sunita Verma,middle_name_missing,middle_name_dropped,Rani dropped in bank record
+30,Arvind Kumar Singh,Arvind Singh,middle_name_missing,middle_name_dropped,Kumar as filler middle word
+31,Jaspreet Kaur Bhatia,Jaspreet Bhatia,middle_name_missing,middle_name_dropped,Sikh Kaur word dropped
+32,Smt. Sunita Devi Sharma,Sunita Devi Sharma,noise,honorific,Smt prefix on utility bill
+33,Shri Ramesh Chandra Tripathi,Ramesh Chandra Tripathi,noise,honorific,Shri prefix
+34,Dr. Anil Vasant Kulkarni,Anil Vasant Kulkarni,noise,honorific,Professional title
+35,Kumari Neha Suresh Joshi,Neha Suresh Joshi,noise,honorific,Kumari prefix
+36,Late Shri Hari Prasad Dwivedi,Hari Prasad Dwivedi,noise,honorific,Late plus Shri stacked on legacy records
+37,Mr. Rajesh Mohan Khanna,Rajesh Mohan Khanna,noise,honorific,English honorific
+38,Sri Sri Venkata Ramana Murthy,Venkata Ramana Murthy,noise,honorific,Repeated honorific
+39,Priya Rani Singh,Priya Rani Singh W/O Amit Kumar Singh,noise,relation_suffix,Wife of clause on ration card
+40,Rakesh Kumar Yadav,Rakesh Kumar Yadav S/O Mahesh Prasad Yadav,noise,relation_suffix,Son of clause
+41,Kavita Ramesh Nair,Kavita Ramesh Nair D/O Ramesh Nair,noise,relation_suffix,Daughter of clause
+42,Faisal Ahmed Khan,Faisal Ahmed Khan C/O Nadeem Ahmed Khan,noise,relation_suffix,Care of clause on address proof
+43,Ganesh Venkat Iyer,Ganesh Venkat Iyer son of Subramanian Venkat Iyer,noise,relation_suffix,Relation clause spelled out
+44,Abhishek Ranjan Shrivastava,Abishek Ranjan Shrivastava,hard_fail,typo_ocr,Dropped aspirate
+45,Ramesh Chandra Joshi,Ramesh Chandar Joshi,hard_fail,typo_ocr,Final vowel moved
+46,Bhavna Kirit Patel,Bhavana Kirit Patel,hard_fail,typo_ocr,Extra schwa
+47,Siddharth Vinod Malhotra,Sidharth Vinod Malhotra,hard_fail,typo_ocr,Doubled consonant dropped
+48,Rajeev Ranjan Sinha,Rajiv Ranjan Sinha,hard_fail,typo_ocr,ee vs i
+49,Nandini Gopal Pillai,Nandinl Gopal Pillai,hard_fail,typo_ocr,OCR confusion of i and l
+50,Govind Rao Deshpande,Gov1nd Rao Deshpande,hard_fail,typo_ocr,OCR digit one for letter i
+51,Prithviraj Anand Kulkarni,Prithvi Raj Anand Kulkarni,hard_fail,spacing,Given name split into two words
+52,Ravi Shankar Hegde,Ravishankar Hegde,hard_fail,spacing,Two words joined
+53,Jai Prakash Mishra,Jaiprakash Mishra,hard_fail,spacing,Given name joined
+54,Ram Charan Kumar Reddy,Ramcharan Kumar Reddy,hard_fail,spacing,First two words joined
+55,Mohd. Aslam Qureshi,Mohammed Aslam Qureshi,abbreviation,abbreviation,Mohd on approved list
+56,Md Shahid Ali,Mohammad Sahid Ali,hard_fail,abbreviation,Md maps to Mohammed not Mohammad and sh vs s
+57,B. R. Kamble,Baburao Ramji Kamble,hard_fail,abbreviation,Initials vs full names are not an approved abbreviation
+58,RAJESH  KUMAR  TIWARI,Rajesh Kumar Tiwari,noise,case_whitespace,Double spaces and all caps
+59,D'Souza Maria Lourdes,Maria Lourdes DSouza,reorder,case_whitespace,Apostrophe ignored but surname moved
+60,Rahul Kumar Sinha,Rohit Kumar Sinha,hard_fail,sibling_like,Same family different given name
+61,Anil Prakash Khurana,Sunil Prakash Khurana,hard_fail,sibling_like,Rhyming given names same family
+62,Priya Krishnan Menon,Divya Krishnan Menon,hard_fail,sibling_like,Rhyming given names
+63,Arjun Venkat Reddy,Arun Venkat Reddy,hard_fail,sibling_like,One character apart but distinct names
+64,Sanjay Kumar Gupta,Sanjiv Kumar Gupta,hard_fail,sibling_like,Shared prefix Sanj
+65,Meera Ramesh Iyer,Maya Ramesh Iyer,hard_fail,sibling_like,Different given names same father name
+66,Vikram Pal Singh,Vikrant Pal Singh,hard_fail,sibling_like,Shared six character prefix
+67,Harish Chandran Nair,Hari Chandran Nair,hard_fail,sibling_like,One given name is a prefix of the other
+68,Ramesh Babu Naidu,Ramesh Babu Naidu Jr,hard_fail,sibling_like,Jr on one side only denotes the son
+69,Amit Kumar Sharma,Sumit Kumar Sharma,hard_fail,common_surname,Common surname different given name
+70,Pooja Rani Agarwal,Puja Rani Bansal,hard_fail,common_surname,Given name spelled differently and surname differs
+71,Suresh Bhai Patel,Mahesh Bhai Patel,hard_fail,common_surname,Rhyming given names
+72,Lakshmi Devi Yadav,Saraswati Devi Yadav,hard_fail,common_surname,Devi and Yadav both very common
+73,Mohammed Ali Shaikh,Mohammed Akram Shaikh,hard_fail,common_surname,Mohammed is very common
+74,Gurpreet Singh Sandhu,Gursharan Singh Sandhu,hard_fail,common_surname,Singh plus shared Gur prefix
+75,Ravi Shankar Verma,Kavi Shankar Verma,hard_fail,common_surname,Single character difference in given name
+76,Nita Mahesh Agarwal,Nitya Mahesh Agarwal,hard_fail,near_duplicate,One inserted character
+77,Roshan Lal Mehta,Rohan Lal Mehta,hard_fail,near_duplicate,One deleted character
+78,Sanya Rajiv Bhatia,Sonia Rajiv Bhatia,hard_fail,near_duplicate,Vowel swap only
+79,Karan Pratap Chauhan,Kiran Pratap Chauhan,hard_fail,near_duplicate,Single vowel difference
+80,Deepak Mohan Joshi,Deepika Mohan Joshi,hard_fail,near_duplicate,Masculine and feminine form of same root
+81,Ankit Sanjay Jain,Ankita Sanjay Jain,hard_fail,near_duplicate,Trailing a changes gender and person
+82,Vishal Ramesh Lalwani,Vinod Ramesh Lalwani,hard_fail,near_duplicate,Shared prefix Vi
+83,Sameer Arvind Sethi,Samir Arvind Seth,hard_fail,near_duplicate,Two words changed slightly
+84,S. Kumar Pandey,Ramesh Kumar Pandey,hard_fail,initial_conflict,Initial S cannot be Ramesh (paired with 2)
+85,K. Rajan Pillai,Mohan Rajan Pillai,hard_fail,initial_conflict,Initial K cannot be Mohan
+86,A. B. Nair,Anil Chandran Nair,hard_fail,initial_conflict,Second initial B conflicts with Chandran
+87,M. L. Sharma,N. L. Sharma,hard_fail,initial_conflict,Both sides initials but first initial differs
+88,R. K. Gupta,R. S. Gupta,hard_fail,initial_conflict,Second initial differs
+89,T. Arul Selvam,Kumar Arul Selvam,hard_fail,initial_conflict,Initial T cannot be Kumar
+90,Neha Priya Gupta,Neha Priya Agarwal,hard_fail,surname_change,Maiden vs married surname
+91,Shweta Anand Kulkarni,Shweta Anand Deshmukh,hard_fail,surname_change,Surname changed after marriage
+92,Aishwarya Mohan Shetty,Aishwarya Mohan Hegde,hard_fail,surname_change,Surname changed after marriage
+93,Kavya Lakshmi Iyer,Kavya Lakshmi Pillai,hard_fail,surname_change,Different community surnames
+94,Radhika Vinod Mehta,Radhika Vinod Shah,hard_fail,surname_change,Surname changed after marriage
+95,Rahul Prasad Verma,Suresh Prasad Verma,hard_fail,relative,Father and son share middle name and surname
+96,Abhishek Kumar Saxena,Amitabh Kumar Saxena,hard_fail,relative,Father and son with shared first letter
+97,Karthik Subramanian Iyer,Subramanian Ganesan Iyer,hard_fail,relative,Father name appears in son name
+98,Aditya Narayan Khaitan,Kumar Mangalam Khaitan,hard_fail,relative,Same family surname only
+99,Anand Kumar Sen,Anant Kumar Sen,hard_fail,phonetic_collision,Same under loose phonetic keys
+100,Sudha Rani Mishra,Sadhu Rani Mishra,hard_fail,phonetic_collision,Same consonants different name
+101,Kiran Pal Ahuja,Karan Pal Ahuja,hard_fail,phonetic_collision,Same consonants different vowels
+102,Manoj Kumar Tripathi,Mano Kumar Tripathi,hard_fail,phonetic_collision,Shortened given name
+103,Prem Nath Arora,Prema Nath Arora,hard_fail,phonetic_collision,Trailing vowel changes gender and person
+104,Arun Kumar Nair,Varun Kumar Nair,hard_fail,phonetic_collision,Only the first letter differs
+105,Kumar,Suresh Kumar Rathore,hard_fail,subset_trap,Single word vs multi word
+106,Singh,Amarjeet Singh Gill,hard_fail,subset_trap,Singh alone is not identifying
+107,Ram,Ram Kishore Yadav,hard_fail,subset_trap,Given name alone is not identifying
+108,Devi,Lakshmi Devi Yadav,hard_fail,subset_trap,Devi alone is not identifying
+109,SMT. KAMALA DEVI CHAUHAN,Kamala Devi Chauhan,noise,honorific,Caps plus Smt
+110,Shri Venkata Subba Rao,Venkata Subba Rao,noise,honorific,Shri prefix on Andhra record
+111,Mrs. Fatima Bano Siddiqui,Fatima Bano Siddiqui,noise,honorific,Mrs prefix
+112,Ms. Anjali Ramesh Kulkarni,Anjali Ramesh Kulkarni,noise,honorific,Ms prefix
+113,Dr Harpreet Kaur Dhillon,Harpreet Kaur Dhillon,noise,honorific,Dr without full stop
+114,Kumari Sneha Ravindra Patil,Sneha Ravindra Patil,noise,honorific,Kumari prefix on school record
+115,Late Smt. Parvathi Amma Kurup,Parvathi Amma Kurup,noise,honorific,Late plus Smt stacked
+116,Mr. Karma Tenzing Bhutia,Karma Tenzing Bhutia,noise,honorific,Sikkim name with Mr prefix
+117,Sushila Devi Kushwaha,Sushila Devi Kushwaha W/O Ram Naresh Kushwaha,noise,relation_suffix,Wife of clause
+118,Mohit Raj Saxena S/O Anil Raj Saxena,Mohit Raj Saxena,noise,relation_suffix,Son of clause on first document
+119,Lalitha Venkata Lakshmi D/O Venkata Rao,Lalitha Venkata Lakshmi,noise,relation_suffix,Daughter of clause
+120,Bikash Chandra Das C/O Haren Das,Bikash Chandra Das,noise,relation_suffix,Care of clause on Assam address proof
+121,Shabana Parveen Ansari wife of Iqbal Ansari,Shabana Parveen Ansari,noise,relation_suffix,Wife of spelled out
+122,Manpreet Singh Grewal,Manpreet Singh Grewal son of Kuldeep Singh Grewal,noise,relation_suffix,Son of spelled out
+123,Rupali Anant Sawant daughter of Anant Sawant,Rupali Anant Sawant,noise,relation_suffix,Daughter of spelled out
+124,Jitendra Nath Borah care of Dipen Borah,Jitendra Nath Borah,noise,relation_suffix,Care of spelled out
+125,PRADEEP KUMAR BEHERA,Pradeep Kumar Behera,noise,case_whitespace,All caps Odisha name
+126,Sunil  Dattatray   Pawar,Sunil Dattatray Pawar,noise,case_whitespace,Multiple inner spaces
+127,lalit mohan bisht,Lalit Mohan Bisht,noise,case_whitespace,All lowercase
+128,Joseph Thomas Kuriakose,JOSEPH THOMAS KURIAKOSE,noise,case_whitespace,Caps on second document
+129,Abdul Kareem Shaikh.,abdul kareem shaikh,noise,case_whitespace,Trailing full stop and lowercase
+130,V.S. Raghavan,V. S. Raghavan,noise,initials_format,Both sides initials with different spacing
+131,K.P. Unnikrishnan,K P Unnikrishnan,noise,initials_format,Both sides initials with and without full stops
+132,Smt. Bhagyashree Ramchandra Kadam W/O Ramchandra Kadam,BHAGYASHREE  RAMCHANDRA KADAM,noise,mixed_noise,Honorific plus relation clause plus caps and spaces
+133,MAHAPATRA SANTOSH KUMAR,Santosh Kumar Mahapatra,reorder,ordering,Odia surname first on passport
+134,Gill Harjinder Singh,Harjinder Singh Gill,reorder,ordering,Punjabi surname first
+135,Sreekumar Gopalan Pillai,Pillai Sreekumar Gopalan,reorder,ordering,Kerala surname moved to front
+136,Shaikh Nasreen Bano,Nasreen Bano Shaikh,reorder,ordering,Surname first on Maharashtra record
+137,Arindam Kumar Bhattacharya,Bhattacharya Arindam Kumar,reorder,ordering,Bengali surname moved to front
+138,Mr. Rao Nagendra Prasad,Nagendra Prasad Rao,reorder,ordering,Honorific plus surname first
+139,Choudhury Pranab Jyoti,Pranab Jyoti Choudhury,reorder,ordering,Assamese surname first
+140,Venkata Sai Krishna Reddy,Venkata Krishna Reddy,middle_name_missing,middle_name_dropped,Four words vs three with Sai missing
+141,Irfan Ahmed Qadri,Irfan Qadri,middle_name_missing,middle_name_dropped,Ahmed missing
+142,Ananya Lakshmi Hegde,Ananya Hegde,middle_name_missing,middle_name_dropped,Lakshmi missing
+143,Sukhwinder Pal Singh Bains,Sukhwinder Singh Bains,middle_name_missing,middle_name_dropped,Four words vs three with Pal missing
+144,Smt. Geeta Rani Bhardwaj,Geeta Bhardwaj,middle_name_missing,middle_name_dropped,Honorific plus missing middle name
+145,Debashish Chandra Mukherjee,Debashish Mukherjee,middle_name_missing,middle_name_dropped,Chandra missing
+146,Hitesh Kantilal Patel,Hitesh Patel,middle_name_missing,middle_name_dropped,Gujarati father name as middle word missing
+147,Md Salim Ansari,Mohammed Salim Ansari,abbreviation,abbreviation,Md to Mohammed
+148,MOHD. JAVED SIDDIQUI,Mohammed Javed Siddiqui,abbreviation,abbreviation,Mohd with caps and full stop
+149,Md. Rafiqul Islam Mondal,Mohammed Rafiqul Islam Mondal,abbreviation,abbreviation,Md on Bengal record
+150,Mohammed Tauseef Alam,Mohd Tauseef Alam,abbreviation,abbreviation,Abbreviation on second document
+151,Md Anwar Hussain Laskar,Mohammed Anwar Hussain Laskar,abbreviation,abbreviation,Md on Assam record
+152,Mr. Mohd. Yunus Bhat,Mohammed Yunus Bhat,abbreviation,abbreviation,Honorific plus Mohd on Kashmir record

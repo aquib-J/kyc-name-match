@@ -1,0 +1,109 @@
+id,name_doc_1,name_doc_2,is_match,category,notes
+1,V. S. Ramachandran,Vilayanur Subramanian Ramachandran,1,initials_expansion,Tamil style initials expand to father name and given name
+2,S. Kumar,Suresh Kumar,1,initials_expansion,Single leading initial expansion
+3,K. Rahul,Krishna Rahul,1,initials_expansion,Initial is father name not a given name
+4,R. Venkatesh,Rajagopalan Venkatesh,1,initials_expansion,PAN often stores initial while Aadhaar stores expansion
+5,M. K. Stalin,Muthuvel Karunanidhi Stalin,1,initials_expansion,Two initials both expand
+6,A. R. Rahman,Allah Rakha Rahman,1,initials_expansion,Initials expand to a two-word given name
+7,P. T. Usha,Pilavullakandi Thekkeparambil Usha,1,initials_expansion,Malayali house name initials very long expansion
+8,N. Sivaraman,Natarajan Sivaraman,1,initials_expansion,Common Tamil Nadu voter ID vs passport gap
+9,Suresh Kumar,Kumar Suresh,1,ordering,Given name and surname swapped
+10,Reddy Venkata Rao,Venkata Rao Reddy,1,ordering,Telugu surname first convention
+11,Nandamuri Balakrishna,Balakrishna Nandamuri,1,ordering,Surname first in state records
+12,Iyer Lakshmi,Lakshmi Iyer,1,ordering,Community surname leading
+13,SHARMA ANIL KUMAR,ANIL KUMAR SHARMA,1,ordering,All caps passport style with surname first
+14,Das Gupta Ronojoy,Ronojoy Das Gupta,1,ordering,Two token surname reordered
+15,Mohammed Rafi,Muhammad Rafi,1,transliteration,Classic Arabic origin spelling variance
+16,Syed Mohammed,Saiyad Muhammad,1,transliteration,Both tokens vary simultaneously
+17,Lakshmi Narayanan,Laxmi Narayanan,1,transliteration,ksh vs x
+18,Chandrasekhar,Chandrashekar,1,transliteration,s vs sh and vowel length
+19,Krishnan Nair,Krishnan Nayar,1,transliteration,ai vs aya in Malayalam surname
+20,Vijay Kumar Varma,Bijay Kumar Verma,1,transliteration,Bengali v to b shift plus vowel change
+21,Abhijit Banerjee,Abhijeet Bandyopadhyay,1,transliteration,Anglicised vs original Bengali surname
+22,Sourav Ganguly,Saurav Gangopadhyay,1,transliteration,Anglicised surname plus vowel variance
+23,Ayesha Begum,Aisha Begam,1,transliteration,Vowel compression in both tokens
+24,Shrinivas Iyengar,Srinivasa Iyengar,1,transliteration,shr vs sr and trailing schwa
+25,Deepak Chaurasia,Dipak Chourasia,1,transliteration,ee vs i and au vs ou
+26,Rahul Kumar Reddy,Rahul Reddy,1,middle_name_dropped,Middle name absent on second document
+27,Anita Devi Sharma,Anita Sharma,1,middle_name_dropped,Devi honorific style middle token dropped
+28,Mohan Lal Gupta,Mohan Gupta,1,middle_name_dropped,Traditional second given name dropped
+29,Sunita Rani Verma,Sunita Verma,1,middle_name_dropped,Rani dropped in bank record
+30,Arvind Kumar Singh,Arvind Singh,1,middle_name_dropped,Kumar as filler middle token
+31,Jaspreet Kaur Bhatia,Jaspreet Bhatia,1,middle_name_dropped,Sikh Kaur token dropped
+32,Smt. Sunita Sharma,Sunita Sharma,1,honorific,Smt prefix on utility bill
+33,Shri Ramesh Chandra,Ramesh Chandra,1,honorific,Shri prefix
+34,Dr. Anil Kakodkar,Anil Kakodkar,1,honorific,Professional title
+35,Kumari Neha Joshi,Neha Joshi,1,honorific,Kumari prefix
+36,Late Shri Hari Prasad,Hari Prasad,1,honorific,Late plus Shri stacked on legacy records
+37,Mr. Rajesh Khanna,Rajesh Khanna,1,honorific,English honorific
+38,Sri Sri Ravi Shankar,Ravi Shankar,1,honorific,Repeated honorific token
+39,Priya Singh,Priya Singh W/O Amit Singh,1,relation_suffix,Wife of clause appended on ration card
+40,Rakesh Yadav,Rakesh Yadav S/O Mahesh Yadav,1,relation_suffix,Son of clause appended
+41,Kavita Nair,Kavita Nair D/O Suresh Nair,1,relation_suffix,Daughter of clause appended
+42,Imran Khan,Imran Khan C/O Salim Khan,1,relation_suffix,Care of clause on address proof
+43,Ganesh Iyer,Ganesh Iyer son of Subramanian Iyer,1,relation_suffix,Spelled out relation clause
+44,Abhishek Bachchan,Abishek Bachan,1,typo_ocr,Dropped aspirate and doubled consonant
+45,Ramesh Chandra,Ramesh Chandar,1,typo_ocr,Metathesis of final vowel
+46,Bhavna Patel,Bhavana Patel,1,typo_ocr,Schwa insertion
+47,Siddharth Malhotra,Sidharth Malhotra,1,typo_ocr,Doubled consonant dropped
+48,Rajeev Ranjan,Rajiv Ranjan,1,typo_ocr,ee vs i
+49,Nandini Pillai,Nandinl Pillai,1,typo_ocr,OCR confusion of i and l
+50,Govind Rao,Gov1nd Rao,1,typo_ocr,OCR digit one for letter i
+51,Prithviraj Sukumaran,Prithvi Raj Sukumaran,1,spacing,Compound given name split
+52,Ravi Shankar,Ravishankar,1,spacing,Two tokens joined
+53,Jai Prakash Narayan,Jaiprakash Narayan,1,spacing,Joined given name
+54,Ram Charan Teja,Ramcharan Teja,1,spacing,Joined first two tokens
+55,Mohd. Aslam,Mohammed Aslam,1,abbreviation,Mohd is an abbreviation not an honorific
+56,Md Shahid Ali,Mohammad Sahid Ali,1,abbreviation,Md plus sh vs s variance
+57,B. R. Ambedkar,Bhimrao Ramji Ambedkar,1,abbreviation,Initials expand to aspirated names
+58,RAJESH  KUMAR,Rajesh Kumar,1,case_whitespace,Double space and all caps
+59,D'Souza Maria,Maria DSouza,1,case_whitespace,Apostrophe plus reordering
+60,Rahul Kumar,Rohit Kumar,0,sibling_like,Same surname plausible siblings
+61,Anil Kapoor,Sunil Kapoor,0,sibling_like,Rhyming given names same family
+62,Priya Menon,Divya Menon,0,sibling_like,Rhyming given names
+63,Arjun Reddy,Arun Reddy,0,sibling_like,One character apart but distinct names
+64,Sanjay Gupta,Sanjiv Gupta,0,sibling_like,Shared prefix Sanj
+65,Meera Iyer,Maya Iyer,0,sibling_like,Different given names same community surname
+66,Vikram Singh,Vikrant Singh,0,sibling_like,Shared six character prefix
+67,Harish Nair,Hari Nair,0,sibling_like,One name is a strict prefix of the other
+68,Ramesh Babu,Ramesh Babu Jr,0,sibling_like,Jr denotes the son not the same person
+69,Amit Sharma,Sumit Sharma,0,common_surname,Most common Indian surname different given name
+70,Pooja Agarwal,Puja Bansal,0,common_surname,Given name matches phonetically surname differs
+71,Suresh Patel,Mahesh Patel,0,common_surname,Rhyming given names
+72,Lakshmi Devi,Saraswati Devi,0,common_surname,Devi is near universal as a second token
+73,Mohammed Ali,Mohammed Akram,0,common_surname,Mohammed is extremely high frequency
+74,Gurpreet Singh,Gursharan Singh,0,common_surname,Singh plus shared Gur prefix
+75,Ravi Verma,Kavi Verma,0,common_surname,Single character difference in given name
+76,Nita Ambani,Nitya Ambani,0,near_duplicate,One inserted character
+77,Roshan Mehta,Rohan Mehta,0,near_duplicate,One deleted character
+78,Sanya Malhotra,Sonia Malhotra,0,near_duplicate,Vowel swap only
+79,Karan Johar,Kiran Johar,0,near_duplicate,Single vowel difference
+80,Deepak Joshi,Deepika Joshi,0,near_duplicate,Masculine and feminine form of same root
+81,Ankit Jain,Ankita Jain,0,near_duplicate,Trailing a changes gender and person
+82,Vishal Dadlani,Vinod Dadlani,0,near_duplicate,Shared prefix Vi
+83,Sameer Khan,Samir Khanna,0,near_duplicate,Both tokens shifted slightly
+84,S. Kumar,Ramesh Kumar,0,initial_conflict,Initial S cannot expand to Ramesh
+85,K. Rajan,Mohan Rajan,0,initial_conflict,Initial K cannot expand to Mohan
+86,A. B. Nair,Anil Chandran Nair,0,initial_conflict,Second initial B conflicts with Chandran
+87,M. Sharma,N. Sharma,0,initial_conflict,Two different initials
+88,R. K. Gupta,R. S. Gupta,0,initial_conflict,Second initial differs
+89,T. Selvam,Kumar Selvam,0,initial_conflict,Initial T cannot expand to Kumar
+90,Neha Gupta,Neha Agarwal,0,surname_change,Maiden vs married surname unresolvable from text alone
+91,Shweta Nanda,Shweta Bachchan,0,surname_change,Surname changed after marriage
+92,Aishwarya Rai,Aishwarya Bachchan,0,surname_change,Surname changed after marriage
+93,Kavya Iyer,Kavya Pillai,0,surname_change,Different community surnames
+94,Radhika Merchant,Radhika Ambani,0,surname_change,Surname changed after marriage
+95,Rahul Verma,Suresh Verma,0,relative,Father and son share surname
+96,Abhishek Bachchan,Amitabh Bachchan,0,relative,Father and son shared prefix A
+97,Karthik Subramanian,Subramanian Ganesan,0,relative,Father name appears as son surname
+98,Aditya Birla,Kumar Mangalam Birla,0,relative,Father and son same surname
+99,Anand Sen,Anant Sen,0,phonetic_collision,Collides under aggressive phonetic keys
+100,Sudha Rani,Sadhu Rani,0,phonetic_collision,Same consonant skeleton different name
+101,Kiran Bedi,Karan Bedi,0,phonetic_collision,Same consonants different vowels
+102,Manoj Tiwari,Mano Tiwari,0,phonetic_collision,Truncated given name
+103,Prem Chopra,Prema Chopra,0,phonetic_collision,Trailing vowel changes gender and person
+104,Arun Kumar Nair,Varun Kumar Nair,0,phonetic_collision,Leading consonant only difference
+105,Kumar,Suresh Kumar,0,subset_trap,Single token carries too little identity evidence
+106,Singh,Amarjeet Singh,0,subset_trap,Singh alone is not identifying
+107,Ram,Ram Kishore Yadav,0,subset_trap,Given name alone is not identifying
+108,Devi,Lakshmi Devi,0,subset_trap,Devi alone is not identifying
